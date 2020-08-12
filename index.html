@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temp-Converter</title>
+
+    </head>
+
+    <body>
+
+    <form id="form1" method="get">
+   <table>
+      <tr>
+         <th>Fahrenheit</th>
+         <th>Celsius</th>
+         <th>Kelvin</th>
+      </tr>
+      <tr>
+         <td><input type="text" id="degF" onchange="convertTemp('F')" size="10" maxlength="10" /></td>
+         <td><input type="text" id="degC" onchange="convertTemp('C')" size="10" maxlength="10" /></td>
+         <td><input type="text" id="degK" onchange="convertTemp('K')" size="10" maxlength="10" /></td>
+      </tr>
+   </table>
+
+   <script src="main.js"></script>
+
+    </body>
+</html>
